@@ -1,9 +1,9 @@
 #todoList {
-	padding-top: 40px;
+	padding-top: 10px;
 }
 
 #todoList label {
-	display: block;
+	display: inherit;
 }
 
 #todoList button{
