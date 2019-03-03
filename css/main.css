@@ -1,0 +1,35 @@
+#todoList {
+	padding-top: 40px;
+}
+
+#todoList label{
+    width: 88%;
+}
+#todoList li{
+    list-style-type: none;
+    margin-bottom: 9px;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 5px;
+}
+.completed{
+
+}
+.uncompleted label{
+    color: #afa7a7;
+    text-decoration: line-through;
+}
+#todoList .btn{
+    margin-left: 10px;
+}
+
+#todoList {
+	padding-left: 0;
+}
+
+h2 span {
+	font-size: 36px;
+}
+
+#clearButton {
+	display: none;
+}
