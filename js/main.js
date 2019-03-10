@@ -122,12 +122,12 @@ var addToList = function(){
     newItem.content = numberFormatter(addInput.value).toFixed(2);
 
     refreshTotal(newItem.content);
-    listArray.push(newItem);
+    listArray.unshift(newItem);
     //add to the local storage
     refreshLocal();
     //change the dom
     var item = createItemDom(addInput.value,'incomplete');
-    todoList.appendChild(item);
+    todoList.insertBefore(item, todoList.firstChild);
     addInput.value = '';
 
     if(listArray.length > 4) {
