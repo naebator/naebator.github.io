@@ -20,15 +20,22 @@
    </head>
    <body>
       <div class="container">
-         <h2 class="text-center"><span id="total">0.00</span> <small>UAH</small></h2>
-         <div class="form-group">
-            <input type="number" class="form-control input-lg" name="" id="itemInput" >
-         </div>
-         <button id="addButton" style="display: none;" class="btn btn-lg btn-primary btn-block">Добавить</button>
-         
-         <ul id="todoList"></ul>
-         <button id="clearButton" class="btn btn-lg btn-block btn-danger">Очистить</button>
-      </div>
+      	<div class="row">
+      		<div class="col-lg-3"></div>
+      		<div class="col-lg-6">
+  			   <h2 class="text-center"><span class="total">0.00</span> <small>UAH</small></h2>
+  			   <div class="form-group">
+  			      <input type="number" class="form-control input-lg itemInput">
+  			   </div>
+  			   <button class="btn btn-lg btn-primary btn-block addButton">Добавить</button>
+  			   
+  			   <ul class="itemList">
+  			   	
+  			   </ul>
+  			   <button id="clearButton" class="btn btn-lg btn-block btn-danger">Очистить</button>
+  			</div>
+  			<div class="col-lg-3"></div>
+      	</div>
       <script type="text/javascript" src="js/main.js"></script>
    </body>
 </html>

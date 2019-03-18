@@ -1,41 +1,40 @@
-#todoList {
+.itemList {
 	padding-top: 10px;
+	margin-left: 0;
+	padding-left: 0;
 }
 
-#todoList label {
+.itemList label {
 	display: inherit;
+	width: 88%;
+	font-size: 16px;
 }
 
-#todoList button{
-    margin-left: auto !important;
+.itemList span {
+	width: 40%;
+	color: #999;
 }
-#todoList li{
+
+.itemList span:before {
+	content: 'x ';
+	font-size: 10px;
+}
+
+.itemList button{
+    max-width: 29px;
+    margin-left: 5px;
+}
+.itemList li{
     list-style-type: none;
     margin-bottom: 9px;
 	border-bottom: 1px solid #eee;
 	padding-bottom: 5px;
 	display: flex;
 	align-items: center;
-}
-.completed{
-
-}
-.uncompleted label{
-    color: #afa7a7;
-    text-decoration: line-through;
-}
-#todoList .btn{
-    margin-left: 10px;
+	justify-content: space-between;
 }
 
-#todoList {
-	padding-left: 0;
-}
-
-h2 span {
-	font-size: 36px;
-}
-
+.addButton,
 #clearButton {
 	display: none;
 }
